@@ -69,8 +69,8 @@ def create_plots(audio_path, json_path, muted_path, sr=48000, output_dir='output
     plt.close(fig)  # Close the figure to free memory
 
 # Usage of the function
-audio_path = '/mnt/c/Users/bibbo/Downloads/Anonymize/resources/sync.WAV'
-json_path = '/mnt/c/Users/bibbo/Downloads/Anonymize/resources/sync.json'
-muted_path = '/mnt/c/Users/bibbo/Downloads/Anonymize/resources/sync_modified.WAV'
+audio_path = '/content/voice_anonymization/resources/sync.WAV'
+json_path = '/content/voice_anonymization/resources/Cnn14_DecisionLevelAtt/sync.json'
+muted_path = '/content/voice_anonymization/resources/sync_muted.WAV'
 create_plots(audio_path, json_path, muted_path)
 
