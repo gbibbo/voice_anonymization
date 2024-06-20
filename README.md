@@ -1,9 +1,3 @@
-[Anonymize Audio Notebook](https://github.com/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
-
-
-
-
-
 # Voice Anonymization for Sound Event Detection
 
 This repository contains the resources and Jupyter Notebook developed as part of the research paper: "The Sounds of Home: A Speech-Removed Residential Audio dataset for Sound Event Detection," authored by Thomas Deacon, Gabriel Bibbó, Arshdeep Singh, and Mark D. Plumbley from the Center for Vision, Speech and Signal Processing, University of Surrey, UK.
@@ -50,6 +44,7 @@ Open the notebook in Jupyter Notebook or JupyterLab.
 Follow the instructions within the notebook to upload your audio file and run the cells to process the audio.
 You can access the notebook directly in Google Colab for an interactive experience without any local setup:
 
+[Anonymize Audio Notebook](https://github.com/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
 
 ### Citation
