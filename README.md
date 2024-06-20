@@ -37,8 +37,9 @@ Clone this repository to your local machine using:
 git clone https://github.com/gbibbo/voice_anonymization.git
 ```
 
-```python
 Navigate to the cloned directory and install the necessary Python packages:
+```python
+pip install -r requirements.txt
 ```
 
 ### Using the Notebook
