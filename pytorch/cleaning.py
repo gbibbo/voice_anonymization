@@ -4,7 +4,7 @@ import numpy as np
 import librosa
 import soundfile as sf
 
-def read_json_and_get_indices(json_path, labels, threshold=0.2, sr=48000):
+def read_json_and_get_indices(json_path, labels, threshold=0.2, mute_time_extention=1, sr=48000):
     with open(json_path, 'r') as f:
         data = json.load(f)
 
@@ -23,8 +23,8 @@ def read_json_and_get_indices(json_path, labels, threshold=0.2, sr=48000):
         for prediction in entry['predictions']:
             if prediction['class'] in labels and prediction['prob'] > threshold:
                 # Añadir o ajustar el intervalo de silencio actual
-                start_time = max(current_time - 1, 0)  # Extender un segundo antes
-                end_time = current_time + (window_size / sr) + 1  # Extender un segundo después
+                start_time = max(current_time - mute_time_extention, 0)  # Extender un segundo antes
+                end_time = current_time + (window_size / sr) + mute_time_extention  # Extender un segundo después
 
                 # Fusionar con el intervalo anterior si es necesario
                 if speech_intervals and speech_intervals[-1][1] >= start_time:
@@ -57,11 +57,13 @@ if __name__ == '__main__':
     parser.add_argument('json_path', type=str, help='Path to the JSON file with detection results.')
     parser.add_argument('audio_input', type=str, help='Path to the original audio file.')
     parser.add_argument('audio_output', type=str, help='Path where the modified audio file should be saved.')
+    parser.add_argument('labels', type=str, help='Labels to mute.')
+    parser.add_argument('mute_time_extention', type=int, help='Extra time to mute.')
+    parser.add_argument('threshold', type=float, help='Extra time to mute.')
     args = parser.parse_args()
 
     _, sr = librosa.load(args.audio_input, sr=None, mono=True)
-    labels = ["Speech", "Singing", "Male singing", "Female singing", "Child singing", "Male speech, man speaking", "Female speech, woman speaking", "Conversation", "Narration, monologue", "Music"]
+    #labels = ["Speech", "Singing", "Male singing", "Female singing", "Child singing", "Male speech, man speaking", "Female speech, woman speaking", "Conversation", "Narration, monologue", "Music"]
 
-    speech_intervals, hop_size, window_size = read_json_and_get_indices(args.json_path, labels, sr=sr)
+    speech_intervals, hop_size, window_size = read_json_and_get_indices(args.json_path, args.labels, args.threshold, args.mute_time_extention, sr=sr)
     mute_speech_sections(args.audio_input, args.audio_output, speech_intervals, sr)
-
