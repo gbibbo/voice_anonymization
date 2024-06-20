@@ -45,6 +45,7 @@ Follow the instructions within the notebook to upload your audio file and run th
 You can access the notebook directly in Google Colab for an interactive experience without any local setup:
 
 Anonymize Audio Notebook
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
 
 ### Citation
