@@ -14,6 +14,18 @@ The project focuses on developing a privacy-compliant audio dataset to support s
 
 - **Data**: Sample data files used for demonstration in the notebook.
 
+## Visualization of Speech Removal
+
+The image below provides a visualization of the speech removal process applied to a sample audio recording. This visualization consists of three main components:
+
+1. **Audio Spectrogram**: The top panel shows the spectrogram of the original audio recording. Here, you can observe various sound events, including speech, as indicated by the brighter areas which represent higher energy or intensity at various frequencies.
+
+2. **Sound Event Predictions**: The middle panel displays the probabilities of different sound events detected by the model. Each color represents a different type of sound, such as male speech, narration, or other noises like clicking. This graph helps in identifying the temporal occurrence and likelihood of different sound events.
+
+3. **Spectrogram with Speech Removed**: The bottom panel shows the spectrogram of the audio after the speech has been removed. Notice the significant reduction in intensity in areas where speech was previously detected, indicating the effectiveness of the speech removal process.
+
+![Visualization of Speech Removal](https://github.com/gbibbo/voice_anonymization/blob/master/metadata/black_list/speech_removed.png)
+
 ## Getting Started
 
 ### Prerequisites
