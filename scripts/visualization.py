@@ -28,7 +28,7 @@ def create_plots(audio_path, json_path, muted_path, sr=48000, output_dir='output
     predictions = load_predictions(json_path)
     top_categories = extract_top_categories(predictions)
     os.makedirs(output_dir, exist_ok=True)
-    fig, axs = plt.subplots(3, 1, figsize=(9, 9), sharex=True)
+    fig, axs = plt.subplots(3, 1, figsize=(11, 9), sharex=True)
     S = librosa.feature.melspectrogram(y=audio, sr=sr)
     S_dB = librosa.power_to_db(S, ref=np.max)
     librosa.display.specshow(S_dB, sr=sr, x_axis='time', y_axis='mel', ax=axs[0])
