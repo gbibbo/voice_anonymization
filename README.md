@@ -1,7 +1,7 @@
 [Anonymize Audio Notebook](https://github.com/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
+
 
 
 # Voice Anonymization for Sound Event Detection
@@ -35,17 +35,34 @@ Clone this repository to your local machine using:
 
 ```bash
 git clone https://github.com/gbibbo/voice_anonymization.git
+```
 
+```python
+Navigate to the cloned directory and install the necessary Python packages:
+```
 
-## Cite
-[1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.
+### Using the Notebook
 
-## Reference
-[2] Gemmeke, J.F., Ellis, D.P., Freedman, D., Jansen, A., Lawrence, W., Moore, R.C., Plakal, M. and Ritter, M., 2017, March. Audio set: An ontology and human-labeled dataset for audio events. In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 776-780, 2017
+To use the Anonymize.ipynb notebook:
 
-[3] Hershey, S., Chaudhuri, S., Ellis, D.P., Gemmeke, J.F., Jansen, A., Moore, R.C., Plakal, M., Platt, D., Saurous, R.A., Seybold, B. and Slaney, M., 2017, March. CNN architectures for large-scale audio classification. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 131-135, 2017
+Open the notebook in Jupyter Notebook or JupyterLab.
+Follow the instructions within the notebook to upload your audio file and run the cells to process the audio.
+You can access the notebook directly in Google Colab for an interactive experience without any local setup:
 
-## External links
-Other work on music transfer learning includes: <br>
-https://github.com/jordipons/sklearn-audio-transfer-learning <br>
-https://github.com/keunwoochoi/transfer_learning_music
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
+
+### Citation
+
+If you use the data or the anonymization pipeline in your research, please cite our paper:
+
+@inproceedings{deacon2022sounds,
+  title={The Sounds of Home: A Speech-Removed Residential Audio dataset for Sound Event Detection},
+  author={Deacon, Thomas and Bibbò, Gabriel and Singh, Arshdeep and Plumbley, Mark D.},
+  booktitle={INTERSPEECH 2022},
+  year={2022},
+  organization={University of Surrey}
+}
+
+### Acknowledgements
+
+This work was supported by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/T019751/1 "AI for Sound (AI4S)."
