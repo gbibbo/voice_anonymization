@@ -44,7 +44,7 @@ Open the notebook in Jupyter Notebook or JupyterLab.
 Follow the instructions within the notebook to upload your audio file and run the cells to process the audio.
 You can access the notebook directly in Google Colab for an interactive experience without any local setup:
 
-[Anonymize Audio Notebook](https://github.com/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
+Anonymize Audio Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbibbo/voice_anonymization/blob/master/Anonymize.ipynb)
 
 ### Citation
