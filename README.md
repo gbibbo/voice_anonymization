@@ -1,3 +1,7 @@
+# The Sounds of Home Dataset
+
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.12737915-blue)](https://doi.org/10.5281/zenodo.12737915)
+
 # Voice Anonymization for Sound Event Detection
 
 This repository contains the resources and Jupyter Notebook developed as part of the research paper: "The Sounds of Home: A Speech-Removed Residential Audio dataset for Sound Event Detection," authored by Thomas Deacon, Gabriel Bibbó, Arshdeep Singh, and Mark D. Plumbley from the Center for Vision, Speech and Signal Processing, University of Surrey, UK.
