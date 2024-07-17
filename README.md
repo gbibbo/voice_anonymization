@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12737915.svg)](https://doi.org/10.5281/zenodo.12737915)
 
+The datasets consists of 1344 one hour recordings obtained in the homes of 8 participants in Belgium during the year 2023. In each participant's home, an AudioMoth was installed in the Living Room and another one in the Kitchen, recording simultaneously. Subsequently, anonymization software was used to identify the spoken voice and its elimination.
+
 # Voice Anonymization for Sound Event Detection
 
 This repository contains the resources and Jupyter Notebook developed as part of the research paper: "The Sounds of Home: A Speech-Removed Residential Audio dataset for Sound Event Detection," authored by Thomas Deacon, Gabriel Bibbó, Arshdeep Singh, and Mark D. Plumbley from the Center for Vision, Speech and Signal Processing, University of Surrey, UK.
