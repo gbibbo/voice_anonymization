@@ -70,11 +70,11 @@ Anonymize Audio Notebook
 
 If you use the data or the anonymization pipeline in your research, please cite our paper:
 
-@inproceedings{deacon2022sounds,
+@inproceedings{bibbo2024sounds,
   title={The Sounds of Home: A Speech-Removed Residential Audio dataset for Sound Event Detection},
-  author={Deacon, Thomas and Bibbò, Gabriel and Singh, Arshdeep and Plumbley, Mark D.},
-  booktitle={INTERSPEECH 2022},
-  year={2022},
+  author={Bibbò, Gabriel and Deacon, Thomas and Singh, Arshdeep and Plumbley, Mark D.},
+  booktitle={INTERSPEECH 2024},
+  year={2024},
   organization={University of Surrey}
 }
 
