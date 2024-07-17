@@ -1,6 +1,6 @@
 # The Sounds of Home Dataset
 
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.12737915-blue)](https://doi.org/10.5281/zenodo.12737915)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12737915.svg)](https://doi.org/10.5281/zenodo.12737915)
 
 # Voice Anonymization for Sound Event Detection
 
