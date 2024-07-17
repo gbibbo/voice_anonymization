@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12737915.svg)](https://doi.org/10.5281/zenodo.12737915)
 
-The datasets consists of 1344 one hour recordings obtained in the homes of 8 participants in Belgium during the year 2023. In each participant's home, an AudioMoth was installed in the Living Room and another one in the Kitchen, recording simultaneously. Subsequently, anonymization software was used to identify the spoken voice and remove it. In addition, the 7 best estimates of sound events calculated using PANNs (the model [Cnn14_DecisionLevelAtt_mAP=0.425](https://zenodo.org/records/3987831)) for each audio fame of 0.021 seconds are provided.
+The dataset consists of 1,344 one-hour recordings obtained in the homes of 8 participants in Belgium during the year 2023. In each participant's home, an AudioMoth was installed in the Living Room and another one in the Kitchen, recording simultaneously. Subsequently, anonymization software was used to identify the spoken voice and remove it. In addition, the 7 best estimates of sound events calculated using PANNs (the model [Cnn14_DecisionLevelAtt_mAP=0.425](https://zenodo.org/records/3987831)) for each audio fame of 0.021 seconds are provided.
 
 # Voice Anonymization for Sound Event Detection
 
